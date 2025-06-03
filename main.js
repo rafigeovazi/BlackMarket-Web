@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".modalDescription").innerHTML = description;
       document.querySelector(".modalPrice").innerHTML = price;
 
-      const nohp = "6283176842249";
-      let message = `Halo ganteng, ${name} ini bagus bingit, akuwh mw beli dung.`;
+      const nohp = "6282169975377";
+      let message = `Yo Mr.White, this ${name} shi is banger, I'd like to buy it.`;
       let waLink = `https://api.whatsapp.com/send?phone=${nohp}&text=${encodeURIComponent(
         message
       )}`;
